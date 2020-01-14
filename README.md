@@ -1,5 +1,5 @@
 # BF++
-An expansion on the classic programming language Brainfuck.
+An expansion on the classic programming language [Brainfuck](https://en.wikipedia.org/wiki/Brainfuck).
 
 ## Explanation
 
@@ -7,19 +7,19 @@ BF++ is similar to Brainfuck in the way that the memory is set up as a one dimen
 
 To make it a little more clear, think of it like this:
 
-[ 1 2 3 4 5 ] <- Here we have a small scale BF++ memory system. Our current pointer is at index 0.
+\[ 1 2 3 4 5 ] <- Here we have a small scale BF++ memory system. Our current pointer is at index 0.
 
   ^
   
 **Run: @>**
 
-[ 1 2 3 4 5 ] <- We set our reference pointer to index 0, and moved our current real pointer to index 1.
+\[ 1 2 3 4 5 ] <- We set our reference pointer to index 0, and moved our current real pointer to index 1.
 
   @ ^
   
 **Run: +**
 
-[ 1 3 3 4 5 ] <- We just added the value at the reference pointer to the value at the current pointer.
+\[ 1 3 3 4 5 ] <- We just added the value at the reference pointer to the value at the current pointer.
 
   @ ^
 
