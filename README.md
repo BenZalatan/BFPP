@@ -104,3 +104,11 @@ To make it a little more clear, think of it like this:
   - **0** -> Check if pointer is non-zero.
   
 - If a reference pointer is **not** set, then it continues if the current memory value is non-zero.
+
+## Examples
+
+**Add two numbers**: ,@>,+.
+
+**Count to a given number**: ,@>{!x+<@>.\_}
+
+**Set all memory to one number**: ,@>{!=>}
